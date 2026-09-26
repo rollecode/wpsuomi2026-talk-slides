@@ -52,14 +52,3 @@ Timing bars show where you should be by the clock. After moving slides, update `
 ```bash
 python3 scripts/refresh-progress.py talks/wpsuomi-2026 --minutes=minutes.json
 ```
-
-## Google Slides
-
-The organisers combine every talk into one Google Slides deck. Export from Keynote to PowerPoint, upload the `.pptx` to Google Drive and open it with Google Slides. The fonts are all Google Fonts, so they carry over:
-
-| Role | Face |
-| -- | -- |
-| Display noun | Unbounded ExtraBold |
-| Display counter-phrase | Instrument Serif Italic |
-| Body | Geist |
-| Code | Geist Mono |
