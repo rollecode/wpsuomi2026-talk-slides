@@ -34,20 +34,20 @@ Advanced Custom Fields has been a default in WordPress work for over a decade, t
 
 | Path | What it is |
 | -- | -- |
-| `Going ACF-free.key` | The deck to present from, and the source of truth |
+| `Going ACF-free.key` | The deck used for presenting, and the source of truth |
 | `export/` | Exports for the organisers: `.pptx` for Google Slides and a `.pdf` |
-| `keyassets/` | Everything placed on the slides: stamps, logos, GIFs, screenshots, code panels, diagrams and their HTML sources |
+| `keyassets/` | Images used on the slides: stamps, logos, GIFs, screenshots, code panels, diagrams and their HTML sources |
 | `photos/` | Photos used on the About slide |
 | `minutes.json` | Estimated minutes per slide, used by the footer timing bars |
 | `tools/` | The AppleScript helpers that edit the open deck in Keynote |
-| `talk.py` | The starting deck for [keynote-base](https://github.com/rollecode/keynote-base). Historical only |
+| `talk.py` | The source of the first version of the deck, kept for reference |
 | `speaker-notes.md`, `OUTLINE.md` | Early notes and the first outline |
 
 ## Working on the deck
 
-The deck was generated once from [keynote-base](https://github.com/rollecode/keynote-base) and has been edited in Keynote since. Nothing rebuilds it. Changes go into the open `.key`, by hand or through `tools/newsection.py`.
+The first version of the deck was generated with [keynote-base](https://github.com/rollecode/keynote-base). Since then it has been edited in Keynote, and it is not generated again. Changes are made to the `.key` file in Keynote, by hand or with `tools/newsection.py`.
 
-Timing bars show where you should be by the clock. After moving slides, update `minutes.json` and run from the keynote-base root:
+The timing bar in each slide footer shows how many minutes into the talk you should be on that slide. After adding or moving slides, update `minutes.json` and run this in the keynote-base root:
 
 ```bash
 python3 scripts/refresh-progress.py talks/wpsuomi-2026 --minutes=minutes.json
