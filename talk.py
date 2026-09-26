@@ -1,8 +1,9 @@
-"""WP Suomi 2026: Going ACF-free. Kept out of git until the talk is given.
+"""WP Suomi 2026: Going ACF-free.
 
-STARTING POINT ONLY. This built the first Going ACF-free.key on 24.9.2026. From
-then on the .key is the source of truth and is edited in Keynote, by hand or by
-AppleScript in place. Rebuilding from here would discard that work.
+This file generated the first version of Going ACF-free.key on 24.9.2026. Since
+then the .key has been the source of truth and is edited in Keynote, by hand or
+with AppleScript. Building the deck again from this file would overwrite those
+edits, so it is kept for reference only.
 """
 
 EVENT = "WP Suomi 2026, Oulu, 16th of October, 2026"
