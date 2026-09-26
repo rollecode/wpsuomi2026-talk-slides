@@ -41,7 +41,7 @@ Advanced Custom Fields has been a default in WordPress work for over a decade, t
 | `minutes.json` | Estimated minutes per slide, used by the footer timing bars |
 | `tools/` | The AppleScript helpers that edit the open deck in Keynote |
 | `talk.py` | The source of the first version of the deck, kept for reference |
-| `speaker-notes.md`, `OUTLINE.md` | Early notes and the first outline |
+| `speaker-notes.md`, `OUTLINE.md` | Early notes, and the running order with speaker notes exported from the deck |
 
 ## Working on the deck
 
