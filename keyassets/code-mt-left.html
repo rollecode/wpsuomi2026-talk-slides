@@ -1,0 +1,16 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="file:///Users/rolle/Projects/keynote-base/code.css">
+<style>html,body{margin:0;background:#1B0B38}:root{--mono:"Geist Mono",ui-monospace,monospace}body{zoom:2}
+pre{width:890px;height:532px}</style>
+<pre>$title   <span class="t-punct">=</span> <span class="t-func">get_field</span><span class="t-punct">(</span> <span class="t-string">'title'</span> <span class="t-punct">)</span><span class="t-punct">;</span>
+$content <span class="t-punct">=</span> <span class="t-func">get_field</span><span class="t-punct">(</span> <span class="t-string">'content'</span> <span class="t-punct">)</span><span class="t-punct">;</span>
+$image   <span class="t-punct">=</span> <span class="t-func">get_field</span><span class="t-punct">(</span> <span class="t-string">'image'</span> <span class="t-punct">)</span><span class="t-punct">;</span>
+$link    <span class="t-punct">=</span> <span class="t-func">get_field</span><span class="t-punct">(</span> <span class="t-string">'link'</span> <span class="t-punct">)</span><span class="t-punct">;</span>
+?<span class="t-punct">&gt;</span>
+<span class="t-punct">&lt;</span>section class<span class="t-punct">=</span><span class="t-string">"block-content-image"</span><span class="t-punct">&gt;</span>
+  <span class="t-punct">&lt;</span>h2<span class="t-punct">&gt;</span><span class="t-punct">&lt;</span>?php <span class="t-keyword">echo</span> <span class="t-keyword">esc_html</span><span class="t-punct">(</span> $title <span class="t-punct">)</span><span class="t-punct">;</span> ?<span class="t-punct">&gt;</span><span class="t-punct">&lt;</span>/h2<span class="t-punct">&gt;</span>
+  <span class="t-punct">&lt;</span>?php <span class="t-keyword">echo</span> <span class="t-func">wp_kses_post</span><span class="t-punct">(</span> $content <span class="t-punct">)</span><span class="t-punct">;</span> ?<span class="t-punct">&gt;</span>
+  <span class="t-punct">&lt;</span>a href<span class="t-punct">=</span><span class="t-string">"&lt;?php echo esc_url( $link['url'] ); ?&gt;"</span><span class="t-punct">&gt;</span>
+    <span class="t-punct">&lt;</span>?php <span class="t-keyword">echo</span> <span class="t-keyword">esc_html</span><span class="t-punct">(</span> $link<span class="t-punct">[</span><span class="t-string">'title'</span><span class="t-punct">]</span> <span class="t-punct">)</span><span class="t-punct">;</span> ?<span class="t-punct">&gt;</span><span class="t-punct">&lt;</span>/a<span class="t-punct">&gt;</span>
+  <span class="t-punct">&lt;</span>?php <span class="t-func">native_lazyload_tag</span><span class="t-punct">(</span> $image <span class="t-punct">)</span><span class="t-punct">;</span> ?<span class="t-punct">&gt;</span>
+<span class="t-punct">&lt;</span>/section<span class="t-punct">&gt;</span></pre>

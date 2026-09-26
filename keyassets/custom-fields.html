@@ -1,0 +1,42 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  html, body { margin: 0; background: transparent; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1d2327; }
+  .box { width: 628px; height: 243px; box-sizing: border-box; background: #fff; border: 1px solid #c3c4c7; }
+  .head { display: flex; align-items: center; justify-content: space-between; height: 43px; padding: 0 12px 0 8px; border-bottom: 1px solid #c3c4c7; }
+  .head h2 { margin: 0; font-size: 14px; font-weight: 600; }
+  .ctl { display: flex; gap: 14px; align-items: center; font-size: 12px; color: #1d2327; }
+  .ctl svg { display: block; }
+  .inside { padding: 12px 7px 10px; }
+  .inside p { margin: 0 0 12px; font-size: 13px; font-weight: 600; }
+  table { width: 100%; border: 1px solid #dcdcde; border-spacing: 0; background: #f6f7f7; }
+  th { background: #f0f0f1; font-size: 13px; font-weight: 600; padding: 8px 10px; text-align: center; }
+  td { vertical-align: top; padding: 9px 10px 10px; }
+  td.name { width: 38%; }
+  input, textarea { box-sizing: border-box; width: 100%; font: 13px -apple-system, sans-serif; color: #2c3338;
+    border: 1px solid #8c8f94; border-radius: 4px; padding: 0 8px; background: #fff; }
+  input { height: 30px; }
+  textarea { height: 45px; padding-top: 5px; resize: none; }
+  a { display: block; color: #2271b1; font-size: 13px; margin: 10px 0 12px; text-decoration: none; }
+  button { font: 13px -apple-system, sans-serif; color: #2271b1; background: #f6f7f7; border: 1px solid #2271b1;
+    border-radius: 3px; padding: 0 10px; height: 30px; }
+</style>
+<div class="box">
+  <div class="head"><h2>Custom Fields</h2>
+    <div class="ctl">
+      <svg width="14" height="9" viewBox="0 0 14 9"><path d="M1 8l6-6 6 6" fill="none" stroke="#1d2327" stroke-width="2"/></svg>
+      <svg width="14" height="9" viewBox="0 0 14 9"><path d="M1 1l6 6 6-6" fill="none" stroke="#1d2327" stroke-width="2"/></svg>
+      <svg width="12" height="7" viewBox="0 0 12 7" style="margin-left:14px"><path d="M0 7L6 0l6 7z" fill="#787c82"/></svg>
+    </div>
+  </div>
+  <div class="inside">
+    <p>Add New Custom Field:</p>
+    <table>
+      <tr><th>Name</th><th>Value</th></tr>
+      <tr>
+        <td class="name"><input value="favorite_food"><a>Cancel</a><button>Add Custom Field</button></td>
+        <td><textarea>burrito</textarea></td>
+      </tr>
+    </table>
+  </div>
+</div>

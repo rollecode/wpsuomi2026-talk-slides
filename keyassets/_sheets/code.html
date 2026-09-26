@@ -1,0 +1,66 @@
+<!doctype html><meta charset="utf-8">
+<link rel="stylesheet" href="file:///Users/rolle/Projects/keynote-base/code.css">
+<style>
+  html, body { margin: 0; padding: 0; background: #1B0B38; }
+  :root { --mono: "Geist Mono", ui-monospace, monospace; }
+  body { zoom: 2; }
+  pre { width: 819px; }
+</style>
+<pre style="height:172px"><span class="t-func">the_field</span><span class="t-punct">(</span> <span class="t-string">'subtitle'</span> <span class="t-punct">)</span><span class="t-punct">;</span>
+<span class="t-func">the_field</span><span class="t-punct">(</span> <span class="t-string">'hero_image'</span> <span class="t-punct">)</span><span class="t-punct">;</span>
+<span class="t-func">the_field</span><span class="t-punct">(</span> <span class="t-string">'cta_url'</span> <span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:252px">acf<span class="t-punct">-</span>json/group_5f3a<span class="t-punct">.</span>json
+
+  <span class="t-key">"key"</span><span class="t-punct">:</span> <span class="t-string">"field_5f3a1"</span><span class="t-punct">,</span>
+  <span class="t-key">"name"</span><span class="t-punct">:</span> <span class="t-string">"subtitle"</span><span class="t-punct">,</span>
+  <span class="t-key">"type"</span><span class="t-punct">:</span> <span class="t-string">"text"</span></pre><pre style="height:92px"><span class="t-func">the_field</span><span class="t-punct">(</span> <span class="t-string">'subtitle'</span> <span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:252px"><span class="t-keyword">register_post_meta</span><span class="t-punct">(</span> <span class="t-string">'post'</span><span class="t-punct">,</span> <span class="t-string">'subtitle'</span><span class="t-punct">,</span> <span class="t-punct">[</span>
+  <span class="t-string">'type'</span>         <span class="t-keyword">=&gt;</span> <span class="t-string">'string'</span><span class="t-punct">,</span>
+  <span class="t-string">'single'</span>       <span class="t-keyword">=&gt;</span> <span class="t-keyword">true</span><span class="t-punct">,</span>
+  <span class="t-string">'show_in_rest'</span> <span class="t-keyword">=&gt;</span> <span class="t-keyword">true</span><span class="t-punct">,</span>
+<span class="t-punct">]</span> <span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:212px"><span class="t-keyword">acf_register_block_type</span><span class="t-punct">(</span> <span class="t-punct">[</span>
+  <span class="t-string">'name'</span>            <span class="t-keyword">=&gt;</span> <span class="t-string">'subtitle'</span><span class="t-punct">,</span>
+  <span class="t-string">'render_template'</span> <span class="t-keyword">=&gt;</span> <span class="t-string">'blocks/subtitle.php'</span><span class="t-punct">,</span>
+<span class="t-punct">]</span> <span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:292px"><span class="t-comment">&lt;!--</span> wp<span class="t-punct">:</span>paragraph <span class="t-punct">{</span>
+  <span class="t-key">"metadata"</span><span class="t-punct">:</span> <span class="t-punct">{</span> <span class="t-key">"bindings"</span><span class="t-punct">:</span> <span class="t-punct">{</span>
+    <span class="t-key">"content"</span><span class="t-punct">:</span> <span class="t-punct">{</span>
+      <span class="t-key">"source"</span><span class="t-punct">:</span> <span class="t-string">"core/post-meta"</span><span class="t-punct">,</span>
+      <span class="t-key">"args"</span><span class="t-punct">:</span> <span class="t-punct">{</span> <span class="t-key">"key"</span><span class="t-punct">:</span> <span class="t-string">"subtitle"</span> <span class="t-punct">}</span>
+    <span class="t-punct">}</span> <span class="t-punct">}</span> <span class="t-punct">}</span> <span class="t-punct">}</span> <span class="t-comment">--&gt;</span></pre><pre style="height:292px"><span class="t-keyword">register_post_meta</span><span class="t-punct">(</span> <span class="t-string">'post'</span><span class="t-punct">,</span> <span class="t-string">'subtitle'</span><span class="t-punct">,</span> <span class="t-punct">[</span>
+  <span class="t-string">'type'</span>         <span class="t-keyword">=&gt;</span> <span class="t-string">'string'</span><span class="t-punct">,</span>
+  <span class="t-string">'single'</span>       <span class="t-keyword">=&gt;</span> <span class="t-keyword">true</span><span class="t-punct">,</span>
+  <span class="t-string">'show_in_rest'</span> <span class="t-keyword">=&gt;</span> <span class="t-keyword">true</span><span class="t-punct">,</span>
+  <span class="t-string">'label'</span>        <span class="t-keyword">=&gt;</span> <span class="t-string">'Subtitle'</span><span class="t-punct">,</span>
+<span class="t-punct">]</span> <span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:252px">Attributes panel lists the field<span class="t-punct">.</span>
+Bound text is editable in place<span class="t-punct">.</span>
+String and rich text only<span class="t-punct">.</span>
+
+Since <span class="t-number">6.7</span><span class="t-punct">.</span></pre><pre style="height:292px"><span class="t-keyword">register_block_bindings_source</span><span class="t-punct">(</span>
+  <span class="t-string">'dude/settings'</span><span class="t-punct">,</span> <span class="t-punct">[</span>
+    <span class="t-string">'label'</span>              <span class="t-keyword">=&gt;</span> <span class="t-string">'Site settings'</span><span class="t-punct">,</span>
+    <span class="t-string">'get_value_callback'</span> <span class="t-keyword">=&gt;</span> $cb<span class="t-punct">,</span>
+  <span class="t-punct">]</span>
+<span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:252px"><span class="t-comment">// 6.9, in JS</span>
+<span class="t-func">registerBlockBindingsSource</span><span class="t-punct">(</span> <span class="t-punct">{</span>
+  name<span class="t-punct">:</span> <span class="t-string">'dude/settings'</span><span class="t-punct">,</span>
+  getFieldsList<span class="t-punct">:</span> <span class="t-punct">(</span><span class="t-punct">)</span> <span class="t-keyword">=&gt;</span> fields<span class="t-punct">,</span>
+<span class="t-punct">}</span> <span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:212px"><span class="t-comment">// 200 lines of JS</span>
+<span class="t-comment">// a build step</span>
+<span class="t-comment">// a migration when core</span>
+<span class="t-comment">// changes the markup</span></pre><pre style="height:212px"><span class="t-keyword">register_block_style</span><span class="t-punct">(</span> <span class="t-string">'core/quote'</span><span class="t-punct">,</span> <span class="t-punct">[</span>
+  <span class="t-string">'name'</span>  <span class="t-keyword">=&gt;</span> <span class="t-string">'pull'</span><span class="t-punct">,</span>
+  <span class="t-string">'label'</span> <span class="t-keyword">=&gt;</span> <span class="t-string">'Pull quote'</span><span class="t-punct">,</span>
+<span class="t-punct">]</span> <span class="t-punct">)</span><span class="t-punct">;</span></pre><pre style="height:412px"><span class="t-punct">{</span>
+  <span class="t-key">"apiVersion"</span><span class="t-punct">:</span> <span class="t-number">3</span><span class="t-punct">,</span>
+  <span class="t-key">"name"</span><span class="t-punct">:</span> <span class="t-string">"dude/timeline"</span><span class="t-punct">,</span>
+  <span class="t-key">"title"</span><span class="t-punct">:</span> <span class="t-string">"Timeline"</span><span class="t-punct">,</span>
+  <span class="t-key">"render"</span><span class="t-punct">:</span> <span class="t-string">"file:./render.php"</span><span class="t-punct">,</span>
+  <span class="t-key">"attributes"</span><span class="t-punct">:</span> <span class="t-punct">{</span>
+    <span class="t-key">"year"</span><span class="t-punct">:</span> <span class="t-punct">{</span> <span class="t-key">"type"</span><span class="t-punct">:</span> <span class="t-string">"string"</span> <span class="t-punct">}</span>
+  <span class="t-punct">}</span>
+<span class="t-punct">}</span></pre><pre style="height:212px"><span class="t-punct">&lt;</span>div <span class="t-punct">&lt;</span>?php echo <span class="t-func">get_block_wrapper_attributes</span><span class="t-punct">(</span><span class="t-punct">)</span><span class="t-punct">;</span> ?<span class="t-punct">&gt;</span><span class="t-punct">&gt;</span>
+  <span class="t-punct">&lt;</span>?php echo <span class="t-func">esc_html</span><span class="t-punct">(</span> $attributes<span class="t-punct">[</span><span class="t-string">'year'</span><span class="t-punct">]</span> <span class="t-punct">)</span><span class="t-punct">;</span> ?<span class="t-punct">&gt;</span>
+  <span class="t-punct">&lt;</span>?php echo $content<span class="t-punct">;</span> ?<span class="t-punct">&gt;</span>
+<span class="t-punct">&lt;</span>/div<span class="t-punct">&gt;</span></pre><pre style="height:172px"><span class="t-comment">// jQuery, or a bundle,</span>
+<span class="t-comment">// or a block that re-renders</span>
+<span class="t-comment">// the whole thing in React</span></pre><pre style="height:172px"><span class="t-punct">&lt;</span>div data<span class="t-punct">-</span>wp<span class="t-punct">-</span>interactive<span class="t-punct">=</span><span class="t-string">"dude/faq"</span>
+     data<span class="t-punct">-</span>wp<span class="t-punct">-</span>on<span class="t-punct">-</span><span class="t-punct">-</span>click<span class="t-punct">=</span><span class="t-string">"actions.toggle"</span>
+     data<span class="t-punct">-</span>wp<span class="t-punct">-</span>class<span class="t-punct">-</span><span class="t-punct">-</span>is<span class="t-punct">-</span>open<span class="t-punct">=</span><span class="t-string">"context.open"</span><span class="t-punct">&gt;</span></pre>

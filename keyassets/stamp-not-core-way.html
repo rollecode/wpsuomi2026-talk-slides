@@ -1,0 +1,21 @@
+<!doctype html><meta charset="utf-8">
+<style>
+html,body{margin:0;background:transparent}
+.wrap{width:900px;height:400px;display:flex;align-items:center;justify-content:center}
+.stamp{display:inline-block;transform:rotate(-8deg);color:#D1265A;border:9px solid currentColor;border-radius:18px;padding:10px;
+  filter:url(#rough)}
+.inner{border:3px solid currentColor;border-radius:9px;padding:14px 34px 16px;
+  font:800 64px/1 "Unbounded",sans-serif;letter-spacing:.04em;text-align:center}
+.s{display:block;font-size:.55em;letter-spacing:.12em;margin:4px 0 10px}
+.b{display:block;font-size:1.6em}
+</style>
+<svg width="0" height="0" style="position:absolute">
+  <filter id="rough">
+    <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="2" seed="7" result="n"/>
+    <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -3.2 2.45" result="holes"/>
+    <feComposite in="SourceGraphic" in2="holes" operator="in" result="speckled"/>
+    <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="3" result="w"/>
+    <feDisplacementMap in="speckled" in2="w" scale="4"/>
+  </filter>
+</svg>
+<div class="wrap"><div class="stamp"><div class="inner"><span class="s" style="font-size:.8em;margin:0 0 8px">NOT</span><span class="b" style="font-size:1em">CORE WAY</span></div></div></div>
