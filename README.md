@@ -24,6 +24,7 @@
 | | |
 | -- | -- |
 | Event | [WP Suomi 2026](https://wpsuomi.fi/), Hotel Lasaretti, Oulu |
+| Talk page | [wpsuomi.fi/speaker/rolle-laukkarinen](https://wpsuomi.fi/speaker/rolle-laukkarinen/) |
 | Slot | Thursday 16.10.2026, 14:10-14:55, main stage, 35 minutes plus Q&A |
 | Complexity | Hard |
 | Audience | Theme developers and agencies maintaining ACF-dependent WordPress sites |
