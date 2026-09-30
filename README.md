@@ -14,7 +14,9 @@
 
 ---
 
-<img width="1920" height="1080" alt="Going ACF-free cover slide" src="cover.png" />
+<a href="https://rollecode.github.io/wpsuomi2026-talk-slides/"><img width="1920" height="1080" alt="Going ACF-free cover slide" src="cover.png" /></a>
+
+<h1 align="center"><a href="https://rollecode.github.io/wpsuomi2026-talk-slides/">Browse the slides</a></h1>
 
 > [!IMPORTANT]  
 > These slides are a work in progress and subject to change until the talk has been given.
@@ -37,6 +39,7 @@ Advanced Custom Fields has been a default in WordPress work for over a decade, t
 | -- | -- |
 | `Going ACF-free.key` | The deck used for presenting, and the source of truth |
 | `export/` | Exports for the organisers: `.pptx` for Google Slides and a `.pdf` |
+| `docs/` | The slide browser on GitHub Pages, with one image per slide |
 | `keyassets/` | Images used on the slides: stamps, logos, GIFs, screenshots, code panels, diagrams and their HTML sources |
 | `photos/` | Photos used on the About slide |
 | `minutes.json` | Estimated minutes per slide, used by the footer timing bars |
