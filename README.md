@@ -16,16 +16,13 @@
 
 <a href="https://rollecode.github.io/wpsuomi2026-talk-slides/"><img width="1920" height="1080" alt="Going ACF-free cover slide" src="cover.png" /></a>
 
-> [!IMPORTANT]  
-> These slides are a work in progress and subject to change until the talk has been given.
-
 ## The talk
 
 | | |
 | -- | -- |
 | Event | [WP Suomi 2026](https://wpsuomi.fi/), Hotel Lasaretti, Oulu |
 | Talk page | [wpsuomi.fi/speaker/rolle-laukkarinen](https://wpsuomi.fi/speaker/rolle-laukkarinen/) |
-| Slot | Thursday 16.10.2026, 14:10-14:55, main stage, 35 minutes plus Q&A |
+| Slot | Friday 16.10.2026, 14:10-14:55, main stage, 35 minutes plus Q&A |
 | Complexity | Hard |
 | Audience | Theme developers and agencies maintaining ACF-dependent WordPress sites |
 
@@ -36,7 +33,8 @@ Advanced Custom Fields has been a default in WordPress work for over a decade, t
 | Path | What it is |
 | -- | -- |
 | `Going ACF-free.key` | The deck used for presenting, and the source of truth |
-| `export/` | Exports for the organisers: `.pptx` for Google Slides and a `.pdf` |
+| `export/` | Exports for the organisers: `.pptx` for Google Slides, a `.pdf`, and the fonts as a `.zip` for PowerPoint |
+| `fonts/` | Static Unbounded, Geist, Geist Mono and Instrument Serif files matching the font names in the `.pptx`, with their licence |
 | `docs/` | The slide browser on GitHub Pages, with one image per slide |
 | `keyassets/` | Images used on the slides: stamps, logos, GIFs, screenshots, code panels, diagrams and their HTML sources |
 | `photos/` | Photos used on the About slide |
