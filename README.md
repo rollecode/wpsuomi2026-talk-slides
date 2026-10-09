@@ -6,7 +6,7 @@
 
 <p align="center">
   <img style="height:28px;width:auto;" src="https://github.com/user-attachments/assets/86155721-5148-4ca1-b2f1-9731af65bf27" alt="Keynote" />
-  <img src="https://img.shields.io/badge/Google%20Slides-FBBC04?style=for-the-badge&logo=googleslides&logoColor=white" alt="Google Slides" />
+  <a href="https://docs.google.com/presentation/d/1AC1fJbN4_X7Y56qSdsw5XMzr4i584OX_/edit?usp=sharing"><img src="https://img.shields.io/badge/Google%20Slides-FBBC04?style=for-the-badge&logo=googleslides&logoColor=white" alt="Google Slides" /></a>
   <img src="https://img.shields.io/badge/PDF-b21c20?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTYgMmg4bDYgNnYxMmEyIDIgMCAwIDEtMiAySDZhMiAyIDAgMCAxLTItMlY0YTIgMiAwIDAgMSAyLTJ6bTcgMnY1aDVsLTUtNXpNNy41IDEzSDljMS4xIDAgMS45LjcgMS45IDEuN1MxMC4xIDE2LjUgOSAxNi41aC0uNlYxOGgtLjl2LTV6bS45Ljh2MS45SDljLjYgMCAxLS40IDEtLjk1UzkuNiAxMy44IDkgMTMuOGgtLjZ6TTEyIDEzaDEuNWMxLjQgMCAyLjMgMSAyLjMgMi41UzE0LjkgMTggMTMuNSAxOEgxMnYtNXptLjkuOHYzLjRoLjVjLjkgMCAxLjQtLjYgMS40LTEuN3MtLjUtMS43LTEuNC0xLjdoLS41ek0xNi44IDEzaDIuOHYuOGgtMS45djEuM2gxLjh2LjhoLTEuOFYxOGgtLjl2LTV6Ii8+PC9zdmc+&logoColor=white" alt="PDF" />
   <img src="https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress" />
   <img src="https://img.shields.io/badge/macOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
@@ -23,6 +23,7 @@
 | Event | [WP Suomi 2026](https://wpsuomi.fi/), Hotel Lasaretti, Oulu |
 | Talk page | [wpsuomi.fi/speaker/rolle-laukkarinen](https://wpsuomi.fi/speaker/rolle-laukkarinen/) |
 | Slot | Friday 16.10.2026, 14:10-14:55, main stage, 35 minutes plus Q&A |
+| Slides | [Google Slides](https://docs.google.com/presentation/d/1AC1fJbN4_X7Y56qSdsw5XMzr4i584OX_/edit?usp=sharing), [PDF](export/Going%20ACF-free.pdf), [in your browser](https://rollecode.github.io/wpsuomi2026-talk-slides/) |
 | Complexity | Hard |
 | Audience | Theme developers and agencies maintaining ACF-dependent WordPress sites |
 
